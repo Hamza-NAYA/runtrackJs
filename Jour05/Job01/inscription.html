@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+</head>
+<body>
+    <h1>Inscription</h1>
+    <form id="inscriptionForm">
+        <label for="nom">Nom:</label><br>
+        <input type="text" id="nom" name="nom" ><br><br>
+
+        <label for="prenom">Prénom:</label><br>
+        <input type="text" id="prenom" name="prenom" ><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" ><br><br>
+
+        <label for="password">Mot de passe:</label><br>
+        <input type="password" id="password" name="password" ><br><br>
+
+        <label for="adresse">Adresse:</label><br>
+        <input type="text" id="adresse" name="adresse" ><br><br>
+
+        <label for="codePostal">Code postal:</label><br>
+        <input type="text" id="codePostal" name="codePostal" ><br><br>
+
+        <input type="submit" value="Inscription">
+    </form>
+
+    <div id="errorMessages"></div>
+
+    <button onclick="window.location.href = 'connexion.html';">Connexion</button>
+
+    <script src="inscription.js"></script>
+</body>
+</html>
