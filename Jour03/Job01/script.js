@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-    $('#showButton').click(function() {
+    $('#show').click(function() {
         $('#citation').removeClass('hidden');
     });
 
-    $('#hideButton').click(function() {
+    $('#hide').click(function() {
         $('#citation').addClass('hidden');
     });
 });
