@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 
-.container {
+main {
     width: 100%;
     height: inherit;
     display: flex;

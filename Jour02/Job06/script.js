@@ -31,7 +31,7 @@ function applyPlateformeStyle() {
 
 
 function hideContainer() {
-    const container = document.querySelector('.container');
+    const container = document.querySelector('main');
     container.style.display = 'none';
 }
 
