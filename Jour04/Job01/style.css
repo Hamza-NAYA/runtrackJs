@@ -23,10 +23,10 @@ main {
 
 #button {
     margin-bottom: 10px;
-    width: 300px;
+    width: 360px;
 }
 
 #result {
     background-color: black;
-    color: white;
+    color: yellow;
 }

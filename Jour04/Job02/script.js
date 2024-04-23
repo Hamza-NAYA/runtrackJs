@@ -18,4 +18,6 @@ const jsonString = `{
 
 const key = 'city';
 const value = jsonValueKey(jsonString, key);
+const test = 'name'
 console.log(value);
+console.log(jsonValueKey(jsonString, test));

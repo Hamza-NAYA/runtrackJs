@@ -3,24 +3,24 @@
         "id": 1,
         "nom": "Doe",
         "prenom": "John",
-        "email": "john.doe@example.com"
+        "email": "john.doe@gmail.com"
     },
     {
         "id": 2,
         "nom": "Tomate",
         "prenom": "Alice",
-        "email": "alice.smith@example.com"
+        "email": "alice.Tomate@gmail.com"
     },
     {
         "id": 3,
         "nom": "Salade",
         "prenom": "David",
-        "email": "david.brown@example.com"
+        "email": "david.Salade@gmail.com"
     },
     {
         "id": 4,
         "nom": "Pastille",
         "prenom": "Fernando",
-        "email": "david.brown@example.com"
+        "email": "fernando.Pastille@gmail.com"
     }
 ]
