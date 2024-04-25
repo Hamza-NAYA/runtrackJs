@@ -45,6 +45,8 @@ nav button {
     background-color: white;
     border: none;
     border-radius: 55px;
+    height: 40px;
+    width: 130px;
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
