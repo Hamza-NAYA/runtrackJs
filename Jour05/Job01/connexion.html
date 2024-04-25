@@ -3,24 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Job 01</title>
 </head>
 <body>
-    <h1>Connexion</h1>
-    <form id="connexionForm">
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+    <header>
+        <div class="title">
+            <h1>Jour 05</h1>
+        </div>
+        <nav>
+            <a href="connexion.html"><button>Connexion</button></a>
+            <a href="inscription.html"><button>Inscription</button></a>
+        </nav>
+    </header>
+    <main>
+        <div>
+        </div>
+        <form id="connexionForm">
+            <div>
+                <p id="emailError" class="error"></p>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div>
+                <p id="passwordError" class="error"></p>
+                <input type="password" id="password" name="password" placeholder="Mot de passe">
+            </div>
+            <div class="bouton">
+                <button id="login">Se connecter</button>
+            </div>
+        </form>
+    </main>
 
-        <label for="password">Mot de passe:</label><br>
-        <input type="password" id="password" name="password" required><br><br>
-
-        <input type="submit" value="Connexion">
-    </form>
-
-    <div id="errorMessages"></div>
-
-    <button onclick="window.location.href = 'inscription.html';">Inscription</button>
-
-    <script src="connexion.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
